@@ -1,0 +1,257 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;500&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor1: rgb(0, 98, 255);
+    --input-linear: linear-gradient(black, rgb(0, 183, 255))
+}
+
+body {
+    background-image: linear-gradient(to right,black,80%,rgb(0, 183, 255));
+
+}
+
+header {
+    background-color: black;
+}
+
+header .logo {
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 40px;
+}
+
+nav {
+    background-color: black;
+}
+
+nav p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+nav a:hover {
+    background-color: var(--cor1);
+    transition-duration: 0.4s;
+    border-radius: 3px;
+}
+
+.lancamentos {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: left;
+    padding: 20px;
+    color: white;
+    font-size: 40px;
+}
+
+.container {
+    text-align: center;
+    padding: 10px;
+}
+
+.coluna {
+    margin: auto;
+    width: 200px;
+    height: 320px;
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgba(235, 235, 235, 0.642));
+    margin: 10px;
+    display: inline-table;
+}
+
+.coluna:hover {
+    background-image: linear-gradient(to right, white, rgb(61, 105, 112));
+    transition-duration: 0.4s;
+}
+
+.coluna .produto {
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px;
+    color: black;
+    text-align: left;
+    font-weight: 500;
+}
+
+.coluna img {
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+
+}
+
+.btncomprar {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.btncomprar a {
+    color: white;
+    background-color: var(--cor1);
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 4px;
+    transition-duration: 0.5s;
+}
+
+.btncomprar a:hover {
+    background-color: rgb(0, 66, 164);
+    transition-duration: 0.5s;
+}
+
+.preco {
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    font-weight: 500;
+    text-align: left;
+    padding: 5px;
+}
+
+.novotenis img {
+    background-position: center center;
+    margin: auto;
+    background-size: cover;
+    width: 100%;
+}
+
+/* Footer */
+
+.container2 {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.coluna2 p {
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+}
+
+.coluna2 {
+    columns: 3;
+
+}
+
+.coluna2 a {
+    color: black;
+    text-decoration: none;
+    transition-duration: .3s;
+}
+
+.coluna2 a:hover {
+    background-color: var(--cor1);
+    transition-duration: .4s;
+    border-radius: 4px;
+    padding: 7px 10px;
+    color: white;
+}
+
+/* Login */
+
+.login {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login__container {
+    min-height: 400px;
+    width: 300px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    padding: 32px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login__title {
+    margin-bottom: 32px;
+    color: #303030;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.login__form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login__input {
+    height: 48px;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 8px;
+    border: unset;
+    outline: none;
+}
+
+.login__input-border {
+    height: 1px;
+    width: 100%;
+    margin-bottom: 16px;
+    background-color: #cfcfcf;
+    transition: .3s ease-in-out;
+}
+
+.login__input-border::after {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 0px;
+    margin-bottom: 16px;
+    background-image: linear-gradient(120deg, var(--input-linear));
+    transition: .3s ease-in-out;
+}
+
+.login__input:focus + .login__input-border::after {
+    width: 100%;
+}
+
+.login__submit {
+    height: 48px;
+    width: 100%;
+    outline: none;
+    background-image: linear-gradient(to right,black,rgb(0, 183, 255), black);
+    background-size: 200%;
+    margin-bottom: 32px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: unset;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+.login__submit:hover {
+    background-position: right;
+}
+
+.login__reset {
+    font-size: 12px;
+    color: #929292;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}

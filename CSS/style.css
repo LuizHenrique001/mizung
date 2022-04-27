@@ -258,15 +258,11 @@ nav a:hover {
 
 /* Loja */
 
-.loja {
+.lojah1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 40px;
     color: white;
     text-align: center;
     background-color: black;
     padding: 20px;
-}
-
-.fundo_loja {
-    background-color: black;
 }

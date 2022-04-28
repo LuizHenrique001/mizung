@@ -74,11 +74,12 @@ nav a:hover {
     background-image: linear-gradient(to right, rgb(255, 255, 255), rgba(235, 235, 235, 0.642));
     margin: 10px;
     display: inline-table;
+    transition-duration: .4s;
 }
 
 .coluna:hover {
-    background-image: linear-gradient(to right, white, rgb(61, 105, 112));
     transition-duration: 0.4s;
+    background-color: white;
 }
 
 .coluna .produto {
@@ -268,8 +269,8 @@ nav a:hover {
 }
 
 .carrinho_de_compras {
-    text-align: right;
-    padding-right: 20px;
+    text-align: left;
+    padding-left: 20px;
     background-color: black;
 }
 
@@ -277,4 +278,25 @@ nav a:hover {
     width: 40px;
     height: 40px;
 
+}
+
+.direitos_autorais {
+    background-color: black;
+}
+
+.direitos_autorais p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.direitos_autorais a {
+    color: white;
+    text-decoration: none;
+}
+
+.direitos_autorais a:hover {
+    text-decoration: underline;
 }

@@ -14,7 +14,6 @@
 
 body {
     background-image: linear-gradient(to right,black,80%,rgb(0, 183, 255));
-
 }
 
 header {
@@ -51,6 +50,38 @@ nav a:hover {
     background-color: var(--cor1);
     transition-duration: 0.4s;
     border-radius: 3px;
+}
+
+.banner_comeco {
+    background-image: url('../imagens/pexels-pixabay-163403.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.botao_loja {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 300px;
+    padding-bottom: 100px;
+}
+
+.botao_loja a {
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 10px 45px;
+    border-radius: 20px;
+    transition-duration: .4s;
+}
+
+.botao_loja a:hover {
+    transition-duration: .4s;
+    background-color: white;
+    color: black;
+    border: 1px solid white;
 }
 
 .lancamentos {
@@ -125,10 +156,31 @@ nav a:hover {
     padding: 5px;
 }
 
-.novotenis img {
-    background-position: center center;
+.novotenis {
     margin: auto;
-    background-size: cover;
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgba(235, 235, 235, 0.642));
+    width: 500px;
+    margin-bottom: 50px;
+    padding-bottom: 45px;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.367);
+    font-weight: 500;
+    text-align: left;
+    transition-duration: .4s;
+} 
+
+.novotenis:hover {
+    background-color: white;
+    transition-duration: .4s;
+}
+
+.novotenis p {
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px;
+    font-size: 19px;
+}
+
+.novotenis img {
+    max-width: 500px;
     width: 100%;
 }
 
@@ -286,7 +338,6 @@ nav a:hover {
 
 .direitos_autorais p {
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
     color: white;
     text-align: center;
     padding: 20px;
@@ -295,6 +346,7 @@ nav a:hover {
 .direitos_autorais a {
     color: white;
     text-decoration: none;
+    font-weight: bold;
 }
 
 .direitos_autorais a:hover {

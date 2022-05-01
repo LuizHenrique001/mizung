@@ -53,10 +53,11 @@ nav a:hover {
 }
 
 .banner_comeco {
-    background-image: url('../imagens/pexels-pixabay-163403.jpg');
+    background-image: url('../imagens/fundodosite.webp.opdownload');
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
+    background-position-y: top;
 }
 
 .botao_loja {

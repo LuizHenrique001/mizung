@@ -159,7 +159,7 @@ nav a:hover {
 .novotenis {
     margin: auto;
     background-image: linear-gradient(to right, rgb(255, 255, 255), rgba(235, 235, 235, 0.642));
-    width: 500px;
+    width: 400px;
     margin-bottom: 50px;
     padding-bottom: 45px;
     box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.367);
@@ -180,7 +180,7 @@ nav a:hover {
 }
 
 .novotenis img {
-    max-width: 500px;
+    max-width: 400px;
     width: 100%;
 }
 

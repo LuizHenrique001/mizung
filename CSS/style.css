@@ -43,13 +43,11 @@ nav a {
     color: white;
     text-decoration: none;
     padding: 10px;
-    border-radius: 3px;
 }
 
 nav a:hover {
-    background-color: var(--cor1);
-    transition-duration: 0.4s;
-    border-radius: 3px;
+    border-bottom: 2px solid white;
+
 }
 
 .banner_comeco {
@@ -155,34 +153,6 @@ nav a:hover {
     font-weight: 500;
     text-align: left;
     padding: 5px;
-}
-
-.novotenis {
-    margin: auto;
-    background-image: linear-gradient(to right, rgb(255, 255, 255), rgba(235, 235, 235, 0.642));
-    width: 400px;
-    margin-bottom: 50px;
-    padding-bottom: 45px;
-    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.367);
-    font-weight: 500;
-    text-align: left;
-    transition-duration: .4s;
-} 
-
-.novotenis:hover {
-    background-color: white;
-    transition-duration: .4s;
-}
-
-.novotenis p {
-    font-family: 'Montserrat', sans-serif;
-    padding: 5px;
-    font-size: 19px;
-}
-
-.novotenis img {
-    max-width: 400px;
-    width: 100%;
 }
 
 /* Footer */

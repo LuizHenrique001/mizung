@@ -1,3 +1,4 @@
 {
-    "RPC.disconnectOnIdle": false
+    "RPC.disconnectOnIdle": false,
+    "liveServer.settings.port": 5501
 }

@@ -32,20 +32,20 @@ nav {
     background-color: black;
 }
 
-nav p {
+.navbar {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     padding: 15px;
     text-align: center;
 }
 
-nav a {
+.btn_navbar {
     color: white;
     text-decoration: none;
     padding: 10px;
 }
 
-nav a:hover {
+.btn_navbar:hover {
     border-bottom: 2px solid white;
 
 }
@@ -388,4 +388,60 @@ nav a:hover {
 
 .direitos_autorais a:hover {
     text-decoration: underline;
+}
+
+/* Pesquisa */
+
+.barra_de_pesquisa {
+    display: flex;
+}
+
+.barra_de_pesquisa:hover > ::-webkit-input-placeholder {
+    color: rgb(126, 126, 126);
+}
+
+::-webkit-input-placeholder {
+    color: rgb(255, 255, 255);
+}
+
+.pesquisar {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    width: 40px;
+    height: 40px;
+    outline: none;
+    border: none;
+    background-color: white;
+    padding: 8px;
+    padding-left: 15px;
+    margin-left: 10px;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    transition: .4s;
+}
+
+.barra_de_pesquisa:hover .pesquisar {
+    background-color: #ffffff;
+    width: 210px;
+    height: 40px;
+}
+
+.lupa_img {
+    width: 25px;
+    height: 25px;
+    opacity: 0;
+    border: none;
+    transition: .4s;
+}
+
+.barra_de_pesquisa:hover > .lupa > .lupa_img {
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 4px;
+    width: 25px;
+    height: 25px;
+    opacity: 100%;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    padding: 5px;
 }

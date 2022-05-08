@@ -417,7 +417,7 @@ nav {
     margin-left: 10px;
     border-radius: 20px;
     color: rgb(0, 0, 0);
-    transition: .4s;
+    transition: .6s;
 }
 
 .barra_de_pesquisa:hover .pesquisar {
@@ -444,4 +444,29 @@ nav {
     border-radius: 20px;
     background-color: white;
     padding: 5px;
+}
+
+.resultado_da_busca {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: bottom;
+    border-radius: 20px;
+}
+
+.resultado_da_busca a {
+    text-decoration: none;
+    padding-left: 10px;
+    color: #30303000;
+}
+
+.barra_de_pesquisa:hover > .resultado_da_busca a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    text-align: bottom;
+    text-decoration: none;
+    background-color: var(--cor1);
+    border-radius: 20px;
+    padding: 7px 16px;
+    margin-top: 200px;
 }

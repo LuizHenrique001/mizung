@@ -5,7 +5,9 @@ function buscar() {
     if (busca == 'loja') {
         resultado_da_busca.innerHTML = `<p class="resultado_da_busca"><a href="./loja/loja.html" rel="next">Loja</a></p>`
     }
-    
+    else if (busca == 'Loja') {
+        resultado_da_busca.innerHTML = `<p class="resultado_da_busca"><a href="./loja/loja.html" rel="next">Loja</a></p>`
+    }
     else {
         resultado_da_busca.innerHTML = `<p>Resultado não encontrado</p>`
     }

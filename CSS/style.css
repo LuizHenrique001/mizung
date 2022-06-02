@@ -418,6 +418,16 @@ nav {
     border-radius: 20px;
     color: rgb(0, 0, 0);
     transition: .6s;
+    background-image: url('../imagens/lupa1.png');
+    background-position: center center;
+    background-size: cover;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    transition: .4s ease-in-out;
+}
+
+.pesquisar:hover {
+    background-size: 0px;
 }
 
 .barra_de_pesquisa:hover .pesquisar {
